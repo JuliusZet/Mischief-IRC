@@ -10,6 +10,8 @@
                 <XamlControlsResources xmlns="using:Microsoft.UI.Xaml.Controls" />
                 <!-- Other merged dictionaries here -->
             </ResourceDictionary.MergedDictionaries>
+            <SolidColorBrush x:Key="WindowCaptionBackground"/>
+            <SolidColorBrush x:Key="WindowCaptionBackgroundDisabled"/>
             <!-- Other app resources here -->
         </ResourceDictionary>
     </Application.Resources>

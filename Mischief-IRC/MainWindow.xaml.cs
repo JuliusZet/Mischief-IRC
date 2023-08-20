@@ -26,6 +26,8 @@ namespace Mischief_IRC
         public MainWindow()
         {
             this.InitializeComponent();
+            this.ExtendsContentIntoTitleBar = true;
+            this.SetTitleBar(TitleBar);
         }
     }
 }

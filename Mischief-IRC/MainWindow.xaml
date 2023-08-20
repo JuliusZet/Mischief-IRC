@@ -18,6 +18,20 @@
             <TextBlock Text="Mischief IRC" TextWrapping="NoWrap" Style="{StaticResource CaptionTextBlockStyle}" VerticalAlignment="Center" Margin="28,0,0,0"/>
         </Grid>
         <InfoBar x:Name="InfoBar" Grid.Row="1"/>
-        <NavigationView x:Name="NavigationView" Grid.Row="2" IsBackButtonVisible="Collapsed" IsBackEnabled="False"/>
+        <NavigationView x:Name="NavigationView" Grid.Row="2" IsBackButtonVisible="Collapsed" IsBackEnabled="False">
+            <NavigationView.MenuItems>
+                <NavigationViewItem Tag="Home" Content="Home">
+                    <NavigationViewItem.Icon>
+                        <SymbolIcon Symbol="Home"/>
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>
+                <NavigationViewItem Tag="CalloutCreator" Content="Callout Creator">
+                    <NavigationViewItem.Icon>
+                        <SymbolIcon Symbol="Comment"/>
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>
+                <NavigationViewItemSeparator/>
+            </NavigationView.MenuItems>
+        </NavigationView>
     </Grid>
 </Window>

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Mischief-IRC (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Mischief-IRC (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
